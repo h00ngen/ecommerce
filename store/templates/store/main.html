@@ -92,19 +92,21 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="{% url 'store' %}"
-                            >Parduotuvė
-                            <span class="sr-only">(current)</span></a
+                            >Shop <span class="sr-only">(current)</span></a
                         >
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="{% url 'checkout' %}"
-                            >Apmokėjimas
-                            <span class="sr-only">(current)</span></a
+                            >Payment <span class="sr-only">(current)</span></a
                         >
                     </li>
                 </ul>
                 <div class="form-inline my-2 my-lg-0">
-                    <a href="#" class="btn btn-warning">Login</a>
+                    <a
+                        href="http://127.0.0.1:8000/admin/"
+                        class="btn btn-warning"
+                        >Admin panel login</a
+                    >
 
                     <a href="{% url 'cart' %}">
                         <img
